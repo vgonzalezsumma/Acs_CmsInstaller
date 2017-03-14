@@ -1,6 +1,6 @@
 <?php
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Summa_Installers',
+    'Summasolutions_CmsInstaller',
     __DIR__
 );

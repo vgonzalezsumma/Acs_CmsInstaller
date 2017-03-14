@@ -1,6 +1,6 @@
 <?php
 
-namespace Summa\Installers\Setup;
+namespace Summasolutions\CmsInstaller\Setup;
 
 use Magento\Cms\Api\PageRepositoryInterface;
 use Magento\Cms\Api\Data\PageInterface;

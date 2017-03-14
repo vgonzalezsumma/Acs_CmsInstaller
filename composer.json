@@ -22,7 +22,7 @@
     "autoload": {
         "files": [ "registration.php" ],
         "psr-4": {
-            "Summasolutions\\m2-cms-installer\\": ""
+            "Summasolutions\\CmsInstaller\\": ""
         }
     }
 }
