@@ -1,12 +1,12 @@
 {
     "name": "summasolutions/m2-cms-installer",
-    "description": "Product customization module to extends Magebay/Pdc module",
-    "homepage": "https://bitbucket.org/gnemes/m2-cms-installer",
+    "description": "Module that helps in the CMS blocks creation",
+    "homepage": "https://bitbucket.org/summasolutions/m2-cms-installer",
     "authors": [
         {
             "name": "Alejandro Borria",
             "email": "aborria@summasolutions.net",
-            "homepage": "https://bitbucket.org/gnemes/m2-cms-installer",
+            "homepage": "https://bitbucket.org/summasolutions/m2-cms-installer",
             "role": "TL"
         }
     ],
