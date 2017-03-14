@@ -1,0 +1,28 @@
+{
+    "name": "summa/m2-cms-installer",
+    "description": "Product customization module to extends Magebay/Pdc module",
+    "homepage": "https://bitbucket.org/gnemes/m2-cms-installer",
+    "authors": [
+        {
+            "name": "Alejandro Borria",
+            "email": "aborria@summasolutions.net",
+            "homepage": "https://bitbucket.org/gnemes/m2-cms-installer",
+            "role": "TL"
+        }
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Summa\\m2-cms-installer\\": ""
+        }
+    }
+}
