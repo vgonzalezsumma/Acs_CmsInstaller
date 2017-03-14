@@ -1,5 +1,5 @@
 {
-    "name": "summa/m2-cms-installer",
+    "name": "Summasolutions/m2-cms-installer",
     "description": "Product customization module to extends Magebay/Pdc module",
     "homepage": "https://bitbucket.org/gnemes/m2-cms-installer",
     "authors": [
@@ -22,7 +22,7 @@
     "autoload": {
         "files": [ "registration.php" ],
         "psr-4": {
-            "Summa\\m2-cms-installer\\": ""
+            "Summasolutions\\m2-cms-installer\\": ""
         }
     }
 }
