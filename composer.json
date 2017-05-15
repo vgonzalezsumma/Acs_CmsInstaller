@@ -1,15 +1,6 @@
 {
-    "name": "summasolutions/m2-cms-installer",
+    "name": "acs/cmsinstaller",
     "description": "Module that helps in the CMS blocks creation",
-    "homepage": "https://bitbucket.org/summasolutions/m2-cms-installer",
-    "authors": [
-        {
-            "name": "Alejandro Borria",
-            "email": "aborria@summasolutions.net",
-            "homepage": "https://bitbucket.org/summasolutions/m2-cms-installer",
-            "role": "TL"
-        }
-    ],
     "require": {
         "php": "~5.5.0|~5.6.0|~7.0.0"
     },
@@ -22,7 +13,7 @@
     "autoload": {
         "files": [ "registration.php" ],
         "psr-4": {
-            "Summasolutions\\CmsInstaller\\": ""
+            "Acs\\CmsInstaller\\": ""
         }
     }
 }
