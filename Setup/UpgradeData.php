@@ -87,7 +87,7 @@ class UpgradeData implements UpgradeDataInterface
 
 
         // Example CMS Block Call
-        if (version_compare($context->getVersion(), '1.0.7', '<')) {
+        if (version_compare($context->getVersion(), '1.0.7') < 0) {
         $blockHtmlContent = <<<HTML
 <div class="block">
     <div class="accordion-ui-title">Orders and Shipping</div>
@@ -212,7 +212,27 @@ HTML;
 </div>
 HTML;
         $this->createCmsBlock('no-funds-dashboardTab-message', $blockHtmlContent, 'My Account Dashboard Tab - No Recent Funds Message');
+
+
         }
+
+        if (version_compare($context->getVersion(), '1.0.8') < 0) {
+            $blockHtmlContent = <<<HTML
+<p>
+    Curabitur sollicitudin massa vehicula tincidunt porta. Aliquam erat volutpat. Proin in fermentum lectus.
+    <br><br>
+    Duis a augue vitae dolor elementum suscipit. In a tortor eget justo pulvinar rutrum quis eget sapien. Sed in elit magna. Quisque tristique et est fringilla tincidunt<br>
+    <a href="https://www.cancer.org/involved/fundraise.html" target="_blank">https://www.cancer.org/involved/fundraise.html</a>
+    <br><br>
+    Morbi vehicula turpis felis, et suscipit nisi efficitur non. Nam vestibulum volutpat ex.
+    <br><br>
+    Donec tincidunt tellus ut eros pulvinar, eu accumsan mi condimentum. Interdum et malesuada fames ac 
+    ante ipsum primis in faucibus.
+</p>
+HTML;
+            $this->createCmsBlock('designtool-modal_whyapprobal', $blockHtmlContent, 'Design Tool Modal - Modal for "Why Do I Need Approval?"');
+        }
+
         $this->setup->endSetup();
     }
 
